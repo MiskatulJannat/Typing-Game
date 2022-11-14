@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Typing Speed Game</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-generic" />
+	<link rel="bookmark" href="favicon.ico" type="image/x-generic" />
+	<script type="text/javascript" src="Game.js"></script>
+		<style>
+		#val{
+			height:40px;
+			weidth:30px;
+			font-size:25px;
+			border-color:purple;
+			padding:10px;
+		}	
+		#gameCanvas{
+			margin-left:10%;
+		}	
+		hr{
+			color:purple;
+			border-width:2px;
+		}
+	</style>
+</head>
+<body background="bg2.jpg">
+<hr> <hr>
+<h1 style="color:white"><center>🎆TEST YOUR TYPING SPEED🎆</center></h1>
+<hr>
+ <canvas id="gameCanvas" height="350" width="1000"></canvas>
+<hr>
+	<table style="color:white; font-size: 25pt; margin-left:35%;">
+		<tr>
+		<center>
+			<td>
+				<div>
+					Type Here:
+				</div>
+			</td>
+			<td>
+				<input type="text" id="val" onclick="check()"></input>
+			</td>
+		</center>
+		</tr>
+	</table>
+<hr>
+<hr>
+</body>
+</html>
